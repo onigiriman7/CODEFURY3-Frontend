@@ -5,11 +5,15 @@
   margin: 0;
   padding: 40px;
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.158);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .container {
   width: 100%;
+  margin-top: 10vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -25,11 +29,7 @@
   margin: 0;
 }
 
-.crad {
-  width: "30%";
-  box-shadow: "0px 0px 20px 3px rgb(0,0,0,0.1)";
-  padding: "20px";
-}
+
 .mappedcards {
   width: "100%";
   height: "auto";
@@ -39,10 +39,9 @@
   padding-top: "30px";
 }
 
-/* @media screen and (min-width: 500px) {
+ @media screen and (min-width: 500px) {
   .crad {
-    width: "20%";
-    box-shadow: "0px 0px 20px 3px rgb(0,0,0,0.1)";
-    padding: "20px";
+    width: "100%";
+    
   }
-} */
+}
