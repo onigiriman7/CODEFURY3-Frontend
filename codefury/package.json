@@ -23,7 +23,7 @@
       "react-app/jest"
     ]
   },
-  "proxy":"https://codefuryapi.herokuapp.com",
+  "proxy":"http://127.0.0.1:5000",
   "browserslist": {
     "production": [
       ">0.2%",
