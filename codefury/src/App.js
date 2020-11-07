@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-
+import {useEffect, useState} from 'react';
 function App() {
+  const [workers, setWorkers] = useState([]);
+  useEffect(() => {
+   fetch("https://codefuryapi.herokuapp.com/labourData").then(res=>res.json()).then(data=>console.log(data.workers))
+  }, []);
   return (
     <div className="App">
       <header className="App-header">
