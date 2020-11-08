@@ -75,7 +75,7 @@ function App() {
           </div>
         </div>
         <h1 style={{ width: "100%", textAlign: "center", fontWeight: "100" }}>
-          Occupation <i className="fa fa-pie-chart"></i>
+          Occupation Data<i className="fa fa-pie-chart"></i>
         </h1>
 
         <PieChart
