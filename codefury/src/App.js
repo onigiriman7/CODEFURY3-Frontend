@@ -66,10 +66,7 @@ function App() {
               {showFilter ? (
                 "Close"
               ) : (
-                <i
-                  className="fa fa-search"
-                  style={{ fontSize: "20px", padding: "7px" }}
-                ></i>
+                 "Search"
               )}
             </button>
           </div>
