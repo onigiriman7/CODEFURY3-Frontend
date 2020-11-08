@@ -20,7 +20,7 @@ function App() {
     .length;
 
   useEffect(() => {
-    fetch("http://covidxrayapi.herokuapp.com/labourData")
+    fetch("https://covidxrayapi.herokuapp.com/labourData")
       .then((res) => res.json())
       .then((data) => {
         setWorkers(data.workers);
